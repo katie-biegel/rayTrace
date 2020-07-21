@@ -8,5 +8,6 @@ You can also just run on default inputs: run rt_run.py
 
 rt_run.py run functions in rt_function.  These must be in the same foulder.
 
-To run fortran version first compule: make or make all
+To run fortran version first move .inc and .h files into include folder.
+Then compile: make or make all
 Then ./rayTrace [inputfile]
